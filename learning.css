@@ -1,0 +1,344 @@
+html {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+body {
+
+	font-family: 'Square721 BT', cursive;
+
+	font-size: 13pt;
+
+	background-color: #000000;
+
+	padding: 10px;
+
+	margin: 0;
+
+}
+
+h1 {
+
+	font-size: 15pt;
+
+	color: white;
+
+	text-align: center;
+
+	padding: 18px 0 18px 0;
+
+	margin: 0 0 10px 0;
+
+}
+
+h1 span {
+
+	border: 2px dashed #000000;
+
+	padding: 10px;
+
+}
+
+p {
+    color: floralwhite;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+.img-circle {
+
+	border: 3px solid white;
+
+	border-radius: 50%;
+    
+	margin: 10px;
+}
+
+.section {
+
+	background-color: dimgray;
+
+	padding: 15px;
+
+	margin-bottom: 10px;
+
+	border-radius: 10px;
+
+}
+
+#header {
+
+	background-image: url("http://img.29palms.ru/photo/hotels/maldives/news/300718/resized/007_Klub_puteshestviy_Pavla_Aksenova_Mal'divy_Fairmont_Maldives_Sirru_Fen_Fushi_Podvodnyy_muzey_The_Coralarium.jpg");
+
+	background-size: cover;
+    
+
+}
+
+#header img {
+
+	display: block;
+
+	width: 80px;
+
+	height: 80px;
+
+	margin: auto;
+
+}
+
+#header p {
+
+	font-size: 25pt;
+
+	color: #3b464c;
+
+	padding-top: 5px;
+
+	margin: 0;
+
+	font-weight: bold;
+
+	text-align: center;
+
+}
+
+.quote {
+
+	font-size: 13pt;
+
+	text-align: right;
+
+	margin-top: 10px;
+
+}
+
+table {
+
+	width: 100%;
+
+	font-size: 13pt;
+
+}
+
+table, th, td {
+
+
+	border-collapse: collapse;
+
+	text-align: left;
+
+    color: white;
+}
+
+.selected {
+
+	background-color: #f36f48;
+
+	font-weight: bold;
+
+	color: white;
+
+}
+
+li {
+
+	margin-bottom: 10px;
+
+	font-weight: normal;
+    
+    color: white;
+
+}
+
+progress {
+
+	width: 70%;
+
+	height: 10px;
+
+	color: #3fb6b2;
+
+	background: #efefef;
+
+}
+
+progress::-webkit-progress-bar {
+
+	background: #efefef;
+
+}
+
+progress::-webkit-progress-value {
+
+	background: #00ff00;
+
+} 
+
+progress::-moz-progress-bar {
+
+	color: #00ff00;
+
+	background: #efefef;
+
+}
+
+iframe, audio {
+
+	display: flex;
+
+	margin: 0 auto;
+
+	border: 2px solid #999999;
+    
+    float: end;
+}
+
+hr {
+
+	border: 0;
+
+	height: 1px;
+
+	background: #f36f48;
+
+}
+
+form {
+    
+    float: none;
+
+	text-align: left;
+
+	margin-top: 1%;
+
+}
+
+.submit {
+
+	background-color: #999999;
+
+	font-size: 10pt;
+
+	padding: 15px 10px 10px;
+
+	border-radius: 10px;
+
+	cursor: pointer;
+
+	color: #ffffff;
+
+	border: none;
+
+	outline: none;
+
+	margin: 0;
+    
+    width: 70%;
+
+	font-weight: normal;
+
+}
+
+.submit:hover {
+
+	background-color: #0066ff;
+    
+
+}
+
+textarea {
+
+	height: 50px;
+
+}
+
+input, textarea {
+
+	margin-bottom: 10px;
+
+	font-size: 10pt;
+
+	padding: 15px 10px 10px;
+
+	border: 1px solid #000000;
+
+	background-color: #efefef;
+
+	color: #000000;
+
+	border-radius: 10px;
+
+	width: 70%;
+
+	outline: none;
+
+}
+
+.face {
+
+	transform: scale(0.4);
+
+	margin: 0 auto;
+
+	display: block;
+
+	margin-top: -35px;
+
+	margin-bottom: -25px;
+
+}
+
+#contacts img {
+
+	height: 40px;
+
+	width: 40px;
+
+	margin-left: 15px;
+
+	margin-right: 7px;
+
+}
+
+#contacts a {
+
+	text-decoration: none;
+
+}
+
+#contacts img hover {
+
+	opacity: 0.8;
+
+}
+
+#contacts {
+
+	text-align: center;
+
+}
+
+.copyright {
+
+	font-size: 8pt;
+
+	text-align: right;
+
+	padding-bottom: 10px;
+
+	color: grey;
+
+}
+
+#iframe img {
+
+    float: none;
+    
+}
